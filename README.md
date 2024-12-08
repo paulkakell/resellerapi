@@ -3,10 +3,12 @@
 
 # Middleware API for Open Order Aggregation
 
-This project provides a middleware application that aggregates open order data from multiple e-commerce platforms. It exposes a RESTful API with OpenAPI documentation, enabling integration with Homepage (`gethomepage.dev`) using the customAPI widget.
+This project goal is to provides a middleware application that aggregates open order data from multiple e-commerce platforms. It exposes a RESTful API with OpenAPI documentation, enabling integration with Homepage (`gethomepage.dev`) using the customAPI widget.
+
+Currently testing Sellbrite.
 
 ## Features
-- **Supported Platforms**: Sellbrite, eBay, Shopify, Mercari, Etsy.
+- **Supported Platforms**: Sellbrite.
 - **Data Aggregation**: Calculates the total number of open orders and their total value for each platform.
 - **OpenAPI Integration**: Interactive documentation available via Swagger UI.
 - **Dockerized Deployment**: Fully self-contained application deployable with Docker.
