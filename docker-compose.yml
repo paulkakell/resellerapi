@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  middleware-app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      SELLBRITE_API_KEY: ${SELLBRITE_API_KEY}
+      EBAY_API_KEY: ${EBAY_API_KEY}
+      SHOPIFY_API_KEY: ${SHOPIFY_API_KEY}
+      MERCARI_API_KEY: ${MERCARI_API_KEY}
+      ETSY_API_KEY: ${ETSY_API_KEY}
